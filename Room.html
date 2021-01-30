@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <link href="Room.css" rel="stylesheet">
+        <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <title>Let's Chat!</title>
+    </head>
+    <body>
+        <div class="page-header">
+            <h1>Let's Chat!</h1>
+            </div>
+            <button class="btn btn-outline-danger btn-lg" id="Logout_Button" type="button">
+                <span class="glyphicon glyphicon-log-out" onclick="LogOut()"></span> Log Out
+            </button>
+        <h2 id="Username_Display"></h2>
+        <br>
+        <br>
+        <input id="Input_Room_Name" type="text" class="form-control" placeholder="Type Room Name">
+        <br>
+        <br>
+        <button class="btn btn-lg btn-outline-warning" onclick="Add_Room()"> Add Room </button>
+        <div id="Output"></div>
+    </body>
+    <script src="Room.js"></script>
+</html>

@@ -1,0 +1,34 @@
+.Body_B{
+    background-image: url("https://media.timeout.com/images/105631955/image.jpg");
+    width: 500px;
+    height: 1000px;
+}
+h1{
+    color: black;
+    text-align: center;
+    margin-left: 100px;
+}
+#Background{
+    background-color: orange;
+    float: right;
+    color: black;
+    height: 1000px;
+    width: 800px;
+    padding-left: 30px;
+    padding-top: -30px;
+}
+#Email_SignUp{
+    background-color: darkorchid;
+    border-radius: 20px;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    color: white;
+    float: left;
+    margin-left: 300px;
+}
+
+#Button_Login{
+    margin-top: 10px;
+    margin-left: 200px;
+}
